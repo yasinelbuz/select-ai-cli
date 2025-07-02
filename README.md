@@ -44,14 +44,3 @@ select-ai
 ```
 
 This will open an interactive menu. Use the arrow keys to navigate and press Enter to select and launch an application.
-
-## Customization
-
-You can easily customize the list of applications by editing the `launchableApps` array in the `index.js` file. Each application object can have the following properties:
-
-- `name`: The display name in the selection menu.
-- `type`: The type of application. Can be `'cli'` for command-line tools or `'gui'` for applications with a graphical user interface.
-- `command` (for CLI): The command to execute.
-- `appName` (for GUI): The application name to be used with the `open` command on macOS.
-- `installCheck`: The command (for CLI) or file path (for GUI) to check if the application is installed.
-- `install`: The command or URL for installation instructions if the application is not found.
