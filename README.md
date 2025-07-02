@@ -33,6 +33,12 @@ To use this tool, you can install it globally via npm:
 npm install -g select-ai
 ```
 
+or
+
+```bash
+sudo npm install -g select-ai
+```
+
 This will install the package from your local source code and make the `select-ai` command available in your terminal.
 
 ## Usage
