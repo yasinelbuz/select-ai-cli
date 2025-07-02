@@ -16,6 +16,13 @@ const commandExists = (command) => {
 // Expanded app configuration
 const launchableApps = [
   {
+    name: 'Claude',
+    type: 'cli',
+    command: 'claude',
+    installCheck: 'claude',
+    install: 'npm install -g @anthropic/claude-cli', // Placeholder, please verify
+  },
+  {
     name: 'Gemini',
     type: 'cli',
     command: 'gemini',
@@ -23,11 +30,11 @@ const launchableApps = [
     install: 'npm install -g @google/gemini-cli',
   },
   {
-    name: 'Claude',
+    name: 'Codex CLI',
     type: 'cli',
-    command: 'claude',
-    installCheck: 'claude',
-    install: 'npm install -g @anthropic/claude-cli', // Placeholder, please verify
+    command: 'codex',
+    installCheck: 'codex',
+    install: 'npm install -g @openai/codex', // Placeholder, please verify
   },
   {
     name: 'Cursor',
@@ -36,6 +43,7 @@ const launchableApps = [
     installCheck: '/Applications/Cursor.app', // Path to check
     install: 'https://cursor.sh/',
   },
+  
   {
     name: 'VSCode',
     type: 'gui',
