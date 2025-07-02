@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHJ2eGxxandzbnF5c2c4bGxqZmNmZmM2djA5bXgyejdtcm0wZjdxbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/byHt2Xx03TFflxv669/giphy.gif" alt="select-ai gif" />
+</p>
+
+
+
 # select-ai
 
 A simple command-line tool to quickly launch your favorite AI assistants and code editors.
