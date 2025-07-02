@@ -24,7 +24,7 @@ A simple command-line tool to quickly launch your favorite AI assistants and cod
 To use this tool, you can install it globally via npm:
 
 ```bash
-npm install -g .
+npm install -g select-ai
 ```
 
 This will install the package from your local source code and make the `select-ai` command available in your terminal.
